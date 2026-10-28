@@ -120,7 +120,7 @@ javac -encoding UTF-8 -d out src\calculadora\Calculadora.java src\calculadora\Te
 java "-Dfile.encoding=UTF-8" "-Dstdout.encoding=UTF-8" -cp out calculadora.TesteCalculadora
 
 # gerar a documentação
-javadoc -encoding UTF-8 -charset UTF-8 -docencoding UTF-8 -d docs -sourcepath src calculadora
+javadoc -author -version -encoding UTF-8 -charset UTF-8 -docencoding UTF-8 -d docs -sourcepath src calculadora
 ```
 
 Para ler a documentação, abra `docs/index.html` no navegador.
